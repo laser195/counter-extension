@@ -1,0 +1,10 @@
+{
+    "name": "Counter",
+    "version": "1.0",
+    "manifest_version" : 3,
+    "description": "Extension to conver currencies quickly",
+    "action":{
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    }
+}

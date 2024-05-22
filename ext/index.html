@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Counter</title>
+</head>
+<style type="text/css">
+	div{
+		font-size: 100px;
+        background: lightgreen;
+        color: blue;
+        width: 100px;
+        height: 100px;
+        display: block;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+	}
+
+	#pluse{
+		background-color: greenyellow;
+		color: #000000;
+	}
+
+	
+	#mines{
+		background-color: orangered;
+		color: #000000;
+	}
+	.click{
+		width: 40px;
+		height: 30px;
+		font-size:20px;
+		margin: 5px;
+
+	}
+    span{
+        font-size: 10px;
+        background-color: rgb(23, 216, 216);
+        padding: 5px;
+        cursor: pointer;
+		user-select: none;
+		position: absolute;
+		top: 20px;
+		left: 15px;
+		z-index: 20;
+        
+    }
+</style>
+<body>
+	<div id="screen"></div>
+    <span>rest</span>
+	<button id="mines" class="click">-</button>
+	<button id="pluse" class="click">+</button>
+    <script src="exchange.js"></script>
+</body>
+</html>
